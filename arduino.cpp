@@ -12,3 +12,6 @@ void loop()
   digitalWrite(10, LOW);
   delay(500); // Esperar por 500 milisegundos
 }
+
+// Link do projeto: https://www.tinkercad.com/things/eGrFalRc6hy-arduino
+//
