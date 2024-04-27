@@ -73,7 +73,7 @@ void loop() {
   lcd.print(temp);
   lcd.print("C");
 
-  delay(5000); // Aguarda 3 segundos
+  delay(5000); // Aguarda 5 segundos
 
   // Mostrar a umidade no LCD
   lcd.clear();
@@ -91,7 +91,7 @@ void loop() {
   lcd.print(hum);
   lcd.print("%");
 
-  delay(5000); // Aguarda 3 segundos
+  delay(5000); // Aguarda 5 segundos
 
   // Mostrar o nível de luz ambiente no LCD
   lcd.clear(); 
@@ -110,5 +110,5 @@ void loop() {
   lcd.print(light_level);
   lcd.print("%");
 
-  delay(5000); // Aguarda 3 segundos
+  delay(5000); // Aguarda 5 segundos
 }
