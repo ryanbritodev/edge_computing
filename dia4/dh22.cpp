@@ -1,3 +1,5 @@
+// Link do projeto: https://wokwi.com/projects/396354199080517633
+
 #include <DHT.h>
 #include <LiquidCrystal.h>
 
