@@ -103,12 +103,12 @@ void loop() {
             // CSS to style the on/off buttons
             // Feel free to change the background-color and font-size attributes to fit your preferences
             client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
-            client.println(".button { background-color: #78288c; border: none; color: white; padding: 25px 43px; width: 415px;");
+            client.println(".button { background-color: #2E5E4E; border: none; color: white; padding: 25px 43px; width: 415px;");
             client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
-            client.println(".button2 {background-color: #555555;}</style></head>");
+            client.println(".button2 {background-color: #6F323C;}</style></head>");
 
             // Web Page Heading
-            client.println("<body><h1>ESP32 - Arthur, Diogo e Ryan</h1>");
+            client.println("<body><h1>ESP32 - Arthur, Diogo, Felipe e Ryan</h1>");
 
             // Display current state, and ON/OFF buttons for GPIO 26
             client.println("<p>GPIO 26 - Estado " + output26State + "</p>");
